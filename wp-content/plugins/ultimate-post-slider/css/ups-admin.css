@@ -1,0 +1,63 @@
+.ups-seg {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+h1.ups_seg {
+    border-bottom: 1px dotted #4d4d4d;
+    color: #7e7e7e !important;
+    font-size: 1.5em !important;
+    font-weight: normal !important;
+    margin: 0 0 10px;
+    padding: 10px 0 !important;
+}
+.ups-tabs {
+    border-bottom: 1px solid #dfdfdf;
+    display: block;
+    float: left;
+    margin: 1em 0;
+    position: relative;
+    width: 100%;
+}
+.ups-tb {
+    background: #4d4d4d none repeat scroll 0 0;
+    border-right: 1px solid #444;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+.ups-tb.active {
+    background: rgba(179, 179, 179, 0.43) none repeat scroll 0 0;
+    border-color: #dfdfdf;
+    bottom: 0;
+    box-shadow: 0 0 5px #333;
+    color: #444;
+    cursor: default;
+    font-weight: 700;
+    position: relative;
+    z-index: 9;
+}
+.ups-hidden-part {
+    display: none !important;
+}
+.rating_card_usp {
+    background: #f3f3f3 none repeat scroll 0 0;
+    float: left;
+    font-size: 1.2em;
+    line-height: 25px;
+    margin: 0 0 25px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.rating_card_usp a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
